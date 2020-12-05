@@ -3599,7 +3599,7 @@
       ]
     },
     {
-      "Name": "Pourbaix 1983 - Triazolam + cimetidine 200/400 mg QID",
+      "Name": "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
       "Model": "4Comp",
       "ObservedData": [
         "Pourbaix 1985 - Triazolam + Cimetidine - Triazolam - PO - 0.5 mg - Plasma - agg. (n=8)"
@@ -4656,7 +4656,7 @@
             {
               "Name": "Triazolam-Peripheral Venous Blood-Plasma-Concentration",
               "X": "Time",
-              "Y": "Pourbaix 1983 - Triazolam + cimetidine 200/400 mg QID|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
+              "Y": "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID|Organism|PeripheralVenousBlood|Triazolam|Plasma (Peripheral Venous Blood)",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 1
@@ -4674,14 +4674,14 @@
               }
             }
           ],
-          "Name": "Pourbaix 1983 - Triazolam + cimetidine 200/400 mg QID",
+          "Name": "Pourbaix 1985 - Triazolam + cimetidine 200/400 mg QID",
           "Settings": {
             "SideMarginsEnabled": true,
             "LegendPosition": "RightInside",
             "BackColor": "#FFFFFF",
             "DiagramBackColor": "#FFFFFF"
           },
-          "OriginText": "Cimetidine-Triazolam-DDI\nPourbaix 1983 - Triazolam + cimetidine 200/400 mg QID\n2020-11-27 14:27"
+          "OriginText": "Cimetidine-Triazolam-DDI\nPourbaix 1985 - Triazolam + cimetidine 200/400 mg QID\n2020-11-27 14:27"
         }
       ],
       "Interactions": [
