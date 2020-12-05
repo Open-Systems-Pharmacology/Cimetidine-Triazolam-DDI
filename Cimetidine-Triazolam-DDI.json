@@ -2218,17 +2218,17 @@
           "Unit": "mg"
         },
         {
+          "Name": "Volume of water/body weight",
+          "Value": 3.5,
+          "Unit": "ml/kg"
+        },
+        {
           "Name": "End time",
           "Value": 168.0,
           "Unit": "h",
           "ValueOrigin": {
             "Source": "Unknown"
           }
-        },
-        {
-          "Name": "Volume of water/body weight",
-          "Value": 3.5,
-          "Unit": "ml/kg"
         }
       ]
     },
@@ -2416,7 +2416,6 @@
       "Model": "4Comp",
       "ObservedData": [
         "Abernethy 1983 - Triazolam control - Triazolam - PO - 0.5 mg - Plasma - indiv.",
-        "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)",
         "Friedman 1988 - Triazolam control - Triazolam - PO - 0.5 mg - Plasma - agg. (n=19)"
       ],
       "Solver": {},
@@ -5211,7 +5210,7 @@
       "Name": "Cox 1986 - Triazolam intraduodenal control",
       "Model": "4Comp",
       "ObservedData": [
-        "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)"
+        "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5523,12 +5522,12 @@
               }
             },
             {
-              "Name": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|Time",
-              "Y": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "Name": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|Time",
+              "Y": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
-                "LegendIndex": 3,
+                "LegendIndex": 2,
                 "LineStyle": "None",
                 "Symbol": "Circle"
               }
@@ -5549,7 +5548,7 @@
       "Name": "Cox 1986 - Triazolam intraduodenal + cimetidine 300 mg QID",
       "Model": "4Comp",
       "ObservedData": [
-        "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)"
+        "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)"
       ],
       "Solver": {},
       "OutputSchema": [
@@ -5986,9 +5985,9 @@
               }
             },
             {
-              "Name": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
-              "X": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|Time",
-              "Y": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
+              "Name": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)-Triazolam-Peripheral Venous Blood-Plasma-ArithmeticMean",
+              "X": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|Time",
+              "Y": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean",
               "CurveOptions": {
                 "Color": "#FF0000",
                 "LegendIndex": 2,
@@ -6107,21 +6106,21 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.3970648,
-            2.095212,
-            1.800521,
-            1.800727,
-            1.938103,
-            2.212116,
-            2.404349,
-            2.107229,
-            1.81131,
-            0.8917078,
-            0.5058945,
-            0.2955593
+            0.0003970648,
+            0.002095212,
+            0.001800521,
+            0.001800727,
+            0.001938103,
+            0.002212116,
+            0.00240434916,
+            0.002107229,
+            0.00181131007,
+            0.0008917078,
+            0.0005058945,
+            0.0002955593
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6244,24 +6243,24 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.205129,
-            1.290796,
-            3.302244,
-            4.472605,
-            3.997039,
-            4.323182,
-            4.496397,
-            4.768963,
-            4.325274,
-            4.120155,
-            2.985201,
-            1.558468,
-            0.6889445,
-            0.589451,
-            0.2031211
+            0.000205128992,
+            0.001290796,
+            0.003302244,
+            0.00447260542,
+            0.003997039,
+            0.004323182,
+            0.004496397,
+            0.004768963,
+            0.004325274,
+            0.004120155,
+            0.002985201,
+            0.001558468,
+            0.000688944536,
+            0.000589451,
+            0.00020312109
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6387,22 +6386,22 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.5437609,
-            2.33331,
-            2.513956,
-            2.942208,
-            2.800298,
-            2.584133,
-            2.285462,
-            2.234309,
-            1.620436,
-            1.320087,
-            1.094051,
-            0.5924187,
-            0.3217747
+            0.0005437609,
+            0.00233331,
+            0.002513956,
+            0.002942208,
+            0.002800298,
+            0.00258413283,
+            0.00228546187,
+            0.002234309,
+            0.001620436,
+            0.00132008689,
+            0.00109405094,
+            0.000592418655,
+            0.000321774685
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6526,22 +6525,22 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.5437898,
-            3.092397,
-            4.015629,
-            4.377876,
-            4.103899,
-            3.664995,
-            3.316849,
-            2.894389,
-            2.131975,
-            1.625389,
-            1.283816,
-            0.7161782,
-            0.4455343
+            0.000543789763,
+            0.003092397,
+            0.00401562871,
+            0.004377876,
+            0.004103899,
+            0.003664995,
+            0.003316849,
+            0.002894389,
+            0.002131975,
+            0.001625389,
+            0.001283816,
+            0.000716178154,
+            0.000445534271
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -6570,278 +6569,6 @@
           30.0,
           32.0,
           34.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 1337.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Cox 1986"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3828486/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig.2 triangles"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "triazolam control"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 4.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Triazolam"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "IV"
-        },
-        {
-          "Name": "Dose",
-          "Value": "0.5 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 0.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "diluent was 49ml of 0.3M phosphate buffer (pH 6.0 f 0.3). Triazolam solutions were incubated at 37 +/- 1° for 60min before administration to the subjects.; pH 6.0 solution containing negligible triazolo-benzophenone (TB)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 343.21,
-            "LLOQ": 4E-10
-          },
-          "Values": [
-            2.82326,
-            5.690099,
-            5.368653,
-            4.725451,
-            4.141046,
-            3.57128,
-            2.870463,
-            2.169686,
-            1.250725,
-            0.7558962,
-            0.3658991
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Cox 1986 - triazolam control - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          0.25,
-          0.5,
-          0.75,
-          1.0,
-          1.5,
-          2.0,
-          3.0,
-          4.0,
-          6.0,
-          8.0,
-          12.0
-        ],
-        "Dimension": "Time",
-        "Unit": "h"
-      }
-    },
-    {
-      "Name": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)",
-      "ExtendedProperties": [
-        {
-          "Name": "DB Version",
-          "Value": "OSP DATABASE"
-        },
-        {
-          "Name": "ID",
-          "Value": 1338.0
-        },
-        {
-          "Name": "Study Id",
-          "Value": "Cox 1986"
-        },
-        {
-          "Name": "Reference",
-          "Value": "https://pubmed.ncbi.nlm.nih.gov/3828486/"
-        },
-        {
-          "Name": "Source",
-          "Value": "Fig.2 filled circles"
-        },
-        {
-          "Name": "Grouping",
-          "Value": "triazolam + cimetidine"
-        },
-        {
-          "Name": "Data type",
-          "Value": "aggregated"
-        },
-        {
-          "Name": "N",
-          "Value": 4.0
-        },
-        {
-          "Name": "Molecule",
-          "Value": "Triazolam"
-        },
-        {
-          "Name": "Species",
-          "Value": "Human"
-        },
-        {
-          "Name": "Organ",
-          "Value": "Peripheral Venous Blood"
-        },
-        {
-          "Name": "Compartment",
-          "Value": "Plasma"
-        },
-        {
-          "Name": "Route",
-          "Value": "IV"
-        },
-        {
-          "Name": "Dose",
-          "Value": "0.5 mg"
-        },
-        {
-          "Name": "Times of Administration [h]",
-          "Value": 13.0
-        },
-        {
-          "Name": "Formulation",
-          "Value": "diluent was 49ml of 0.3M phosphate buffer (pH 6.0 f 0.3). Triazolam solutions were incubated at 37 +/- 1° for 60min before administration to the subjects.; pH 6.0 solution containing negligible triazolo-benzophenone (TB)"
-        },
-        {
-          "Name": "Food state",
-          "Value": "Fasted"
-        },
-        {
-          "Name": "Comment",
-          "Value": "."
-        }
-      ],
-      "Columns": [
-        {
-          "Name": "Avg",
-          "QuantityInfo": {
-            "Name": "Avg",
-            "Path": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
-          },
-          "DataInfo": {
-            "Origin": "Observation",
-            "AuxiliaryType": "Undefined",
-            "Date": "0001-01-01T00:00:00",
-            "MolWeight": 343.21,
-            "LLOQ": 4E-10
-          },
-          "Values": [
-            5.953058,
-            7.69375563,
-            6.918941,
-            6.246489,
-            5.852211,
-            5.033803,
-            4.099009,
-            3.368955,
-            2.084363,
-            1.384808,
-            0.6876675
-          ],
-          "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
-        }
-      ],
-      "BaseGrid": {
-        "Name": "Time",
-        "QuantityInfo": {
-          "Name": "Time",
-          "Path": "Cox 1986 - triazolam + cimetidine - Triazolam - IV - 0.5 mg - Serum - agg. (n=4)|Time",
-          "Type": "Time"
-        },
-        "DataInfo": {
-          "Origin": "BaseGrid",
-          "AuxiliaryType": "Undefined",
-          "Date": "0001-01-01T00:00:00"
-        },
-        "Values": [
-          13.25,
-          13.5,
-          13.75,
-          14.0,
-          14.5,
-          15.0,
-          16.0,
-          17.0,
-          19.0,
-          21.0,
-          25.0
         ],
         "Dimension": "Time",
         "Unit": "h"
@@ -6966,19 +6693,19 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.5332868,
-            4.070502,
-            7.141092,
-            5.90409,
-            4.53464,
-            3.253372,
-            1.8022,
-            0.8620946,
-            0.3595408,
-            0.0726852
+            0.000533286831,
+            0.004070502,
+            0.007141092,
+            0.00590409,
+            0.00453464,
+            0.003253372,
+            0.0018022,
+            0.0008620946,
+            0.000359540776,
+            7.26852E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7129,20 +6856,20 @@
             "MolWeight": 343.21
           },
           "Values": [
-            0.5331122,
-            5.114681,
-            7.296809,
-            9.993495,
-            9.556599,
-            7.09783,
-            4.313092,
-            2.950976,
-            1.626271,
-            0.4059894,
-            0.04461518
+            0.0005331122,
+            0.00511468062,
+            0.00729680946,
+            0.00999349449,
+            0.009556599,
+            0.00709783,
+            0.004313092,
+            0.002950976,
+            0.001626271,
+            0.0004059894,
+            4.461518E-05
           ],
           "Dimension": "Concentration (mass)",
-          "Unit": "ng/ml"
+          "Unit": "mg/l"
         }
       ],
       "BaseGrid": {
@@ -7169,6 +6896,278 @@
           339.0,
           345.0,
           351.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1337.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Cox 1986"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3828486/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.2 triangles"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "triazolam control"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 4.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "intraduodenal"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 0.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "diluent was 49ml of 0.3M phosphate buffer (pH 6.0 f 0.3). Triazolam solutions were incubated at 37 +/- 1° for 60min before administration to the subjects.; pH 6.0 solution containing negligible triazolo-benzophenone (TB)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 4E-10
+          },
+          "Values": [
+            2.82326,
+            5.690099,
+            5.368653,
+            4.725451,
+            4.141046,
+            3.57128,
+            2.870463,
+            2.169686,
+            1.250725,
+            0.7558962,
+            0.3658991
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cox 1986 - triazolam control - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          0.25,
+          0.5,
+          0.75,
+          1.0,
+          1.5,
+          2.0,
+          3.0,
+          4.0,
+          6.0,
+          8.0,
+          12.0
+        ],
+        "Dimension": "Time",
+        "Unit": "h"
+      }
+    },
+    {
+      "Name": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)",
+      "ExtendedProperties": [
+        {
+          "Name": "DB Version",
+          "Value": "OSP DATABASE"
+        },
+        {
+          "Name": "ID",
+          "Value": 1338.0
+        },
+        {
+          "Name": "Study Id",
+          "Value": "Cox 1986"
+        },
+        {
+          "Name": "Reference",
+          "Value": "https://pubmed.ncbi.nlm.nih.gov/3828486/"
+        },
+        {
+          "Name": "Source",
+          "Value": "Fig.2 filled circles"
+        },
+        {
+          "Name": "Grouping",
+          "Value": "triazolam + cimetidine"
+        },
+        {
+          "Name": "Data type",
+          "Value": "aggregated"
+        },
+        {
+          "Name": "N",
+          "Value": 4.0
+        },
+        {
+          "Name": "Molecule",
+          "Value": "Triazolam"
+        },
+        {
+          "Name": "Species",
+          "Value": "Human"
+        },
+        {
+          "Name": "Organ",
+          "Value": "Peripheral Venous Blood"
+        },
+        {
+          "Name": "Compartment",
+          "Value": "Plasma"
+        },
+        {
+          "Name": "Route",
+          "Value": "intraduodenal"
+        },
+        {
+          "Name": "Dose",
+          "Value": "0.5 mg"
+        },
+        {
+          "Name": "Times of Administration [h]",
+          "Value": 13.0
+        },
+        {
+          "Name": "Formulation",
+          "Value": "diluent was 49ml of 0.3M phosphate buffer (pH 6.0 f 0.3). Triazolam solutions were incubated at 37 +/- 1° for 60min before administration to the subjects.; pH 6.0 solution containing negligible triazolo-benzophenone (TB)"
+        },
+        {
+          "Name": "Food state",
+          "Value": "Fasted"
+        },
+        {
+          "Name": "Comment",
+          "Value": "."
+        }
+      ],
+      "Columns": [
+        {
+          "Name": "Avg",
+          "QuantityInfo": {
+            "Name": "Avg",
+            "Path": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|ObservedData|Peripheral Venous Blood|Plasma|Triazolam|ArithmeticMean"
+          },
+          "DataInfo": {
+            "Origin": "Observation",
+            "AuxiliaryType": "Undefined",
+            "Date": "0001-01-01T00:00:00",
+            "MolWeight": 343.21,
+            "LLOQ": 4E-10
+          },
+          "Values": [
+            5.953058,
+            7.69375563,
+            6.918941,
+            6.246489,
+            5.852211,
+            5.033803,
+            4.099009,
+            3.368955,
+            2.084363,
+            1.384808,
+            0.6876675
+          ],
+          "Dimension": "Concentration (mass)",
+          "Unit": "ng/ml"
+        }
+      ],
+      "BaseGrid": {
+        "Name": "Time",
+        "QuantityInfo": {
+          "Name": "Time",
+          "Path": "Cox 1986 - triazolam + cimetidine - Triazolam - intraduodenal - 0.5 mg - Serum - agg. (n=4)|Time",
+          "Type": "Time"
+        },
+        "DataInfo": {
+          "Origin": "BaseGrid",
+          "AuxiliaryType": "Undefined",
+          "Date": "0001-01-01T00:00:00"
+        },
+        "Values": [
+          13.25,
+          13.5,
+          13.75,
+          14.0,
+          14.5,
+          15.0,
+          16.0,
+          17.0,
+          19.0,
+          21.0,
+          25.0
         ],
         "Dimension": "Time",
         "Unit": "h"
