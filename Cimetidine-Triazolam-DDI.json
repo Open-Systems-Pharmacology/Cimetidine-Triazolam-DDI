@@ -2429,38 +2429,16 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 10.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
@@ -2783,7 +2761,7 @@
             },
             {
               "Name": "End time",
-              "Value": 12.0,
+              "Value": 36.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -2791,64 +2769,11 @@
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 14.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 14.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 27.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
@@ -3258,6 +3183,34 @@
             },
             {
               "Name": "End time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 144.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
               "Value": 168.0,
               "Unit": "h",
               "ValueOrigin": {
@@ -3266,7 +3219,7 @@
             },
             {
               "Name": "Resolution",
-              "Value": 10.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -3614,7 +3567,7 @@
             },
             {
               "Name": "End time",
-              "Value": 408.0,
+              "Value": 327.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -3622,7 +3575,35 @@
             },
             {
               "Name": "Resolution",
-              "Value": 10.0,
+              "Value": 4.0,
+              "Unit": "pts/h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            }
+          ]
+        },
+        {
+          "Parameters": [
+            {
+              "Name": "Start time",
+              "Value": 327.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "End time",
+              "Value": 351.0,
+              "Unit": "h",
+              "ValueOrigin": {
+                "Source": "Unknown"
+              }
+            },
+            {
+              "Name": "Resolution",
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -4708,7 +4689,7 @@
             },
             {
               "Name": "End time",
-              "Value": 24.0,
+              "Value": 48.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -4716,64 +4697,11 @@
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 24.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 26.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 26.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 36.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
@@ -5223,38 +5151,16 @@
             },
             {
               "Name": "End time",
-              "Value": 2.0,
+              "Value": 24.0,
               "Unit": "h"
             },
             {
               "Name": "Resolution",
-              "Value": 10.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 2.0,
-              "Unit": "h"
-            },
-            {
-              "Name": "End time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
@@ -5561,7 +5467,7 @@
             },
             {
               "Name": "End time",
-              "Value": 12.0,
+              "Value": 37.0,
               "Unit": "h",
               "ValueOrigin": {
                 "Source": "Unknown"
@@ -5569,64 +5475,11 @@
             },
             {
               "Name": "Resolution",
-              "Value": 4.0,
+              "Value": 20.0,
               "Unit": "pts/h",
               "ValueOrigin": {
                 "Source": "Unknown"
               }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 12.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 14.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 10.0,
-              "Unit": "pts/h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            }
-          ]
-        },
-        {
-          "Parameters": [
-            {
-              "Name": "Start time",
-              "Value": 14.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "End time",
-              "Value": 27.0,
-              "Unit": "h",
-              "ValueOrigin": {
-                "Source": "Unknown"
-              }
-            },
-            {
-              "Name": "Resolution",
-              "Value": 4.0,
-              "Unit": "pts/h"
             }
           ]
         }
